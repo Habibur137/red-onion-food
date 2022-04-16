@@ -1,0 +1,13 @@
+.single-service {
+  padding: 20px 0;
+}
+.single-service:hover {
+  box-shadow: 2px -1px 12px 0px rgba(0, 0, 0, 0.21);
+}
+
+.single-service img {
+  width: 250px;
+}
+.single-service h3 {
+  margin-bottom: 10px;
+}

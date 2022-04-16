@@ -19,7 +19,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </Link>
       <div className="link">
-        <Link to="/cart" className="icon">
+        <Link to="/orders" className="icon">
           <ShoppingCartIcon />
           <sup>0</sup>
         </Link>
