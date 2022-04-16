@@ -14,13 +14,14 @@
   margin-right: 20px;
   font-size: 20px;
   font-weight: bold;
-  color: rgb(21, 21, 21);
+  color: rgb(238, 59, 59);
+  border-bottom: 1px solid #000;
   text-decoration: none;
   transition: 0.2s ease-in;
 }
 .btn-div a:hover {
-  color: rgb(238, 59, 59);
-  border-bottom: 1px solid #000;
+  color: black;
+  border-bottom: 1px solid rgb(238, 59, 59);
 }
 
 @media only screen and (max-width: 550px) {

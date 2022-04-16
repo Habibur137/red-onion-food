@@ -15,22 +15,24 @@ const Navbar = () => {
   }
   return (
     <nav>
-      <Link to="/">
-        <img src={logo} alt="" />
-      </Link>
-      <div className="link">
-        <Link to="/orders" className="icon">
-          <ShoppingCartIcon />
-          <sup>0</sup>
+      <div className="nav-bar">
+        <Link to="/">
+          <img src={logo} alt="" />
         </Link>
-        {user ? (
-          <Link to="/" onClick={() => signOut(auth)}>
-            Log Out
+        <div className="link">
+          <Link to="/orders" className="icon">
+            <ShoppingCartIcon />
+            <sup>0</sup>
           </Link>
-        ) : (
-          <Link to="/login">Login</Link>
-        )}
-        <Link to="/register">Sign Up</Link>
+          {user ? (
+            <Link to="/" onClick={() => signOut(auth)}>
+              Log Out
+            </Link>
+          ) : (
+            <Link to="/login">Login</Link>
+          )}
+          <Link to="/register">Sign Up</Link>
+        </div>
       </div>
     </nav>
   );
